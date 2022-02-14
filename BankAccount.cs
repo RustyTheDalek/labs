@@ -5,7 +5,7 @@ public abstract class BankAccount {
 	// variable:
 	public readonly int accountNumber;
 	
-	private static int rollingAccountNumber = 0;
+	private static int rollingAccountNumber = 100000;
 	
 	// properties:
 	public string CustomerName { get; set; }
